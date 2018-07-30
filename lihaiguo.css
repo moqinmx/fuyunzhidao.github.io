@@ -1,0 +1,96 @@
+body {
+  background:#D5DCF0;
+}
+#title {
+  text-align:center;
+}
+.main {
+  width:90%;
+  background:#DEDEFE;
+  margin:0 auto;
+}
+.main {
+  border-radius:10px;
+}
+#survey-form {
+  width:100%;
+  position:relative;
+  text-align:center;
+  margin-top:0;
+  padding-top:0;
+}
+#description {
+  text-align:center;
+  padding:20px 0 20px 0;
+  margin:0;
+}
+.leftlabel {
+  display:inline-block;
+  padding:10px;
+}
+.rightlabel {
+  display:inline-block;
+}
+.survey-input {
+  padding:5px;
+  height:23px;
+  width:280px;
+  border: 1px solid #c0c0c0;
+  border-radius:3px;
+}
+#dropdown {
+  width:140px;
+  height:33px;
+  padding:5px;
+  margin:6px 152px 6px 0px;
+  border: 1px solid #c0c0c0;
+}
+.radio2 {
+  display:block;
+}
+.only label {
+  position: relative;
+  float: top;
+}
+.hehe {
+  display:inline-table;
+  margin-left:0px;
+  padding-left:0px;
+}
+.he {
+  display:inline-table;
+}
+.radio {
+  margin: 5px 230px 5px 5px;
+}
+.checkbox {
+  margin: 5px 84px 5px 5px;
+}
+.hhhh  {
+  display:inline-block;
+  margin:15px 0px 0px 0px;
+  vertical-align:top;
+}
+.bizui {
+}
+.hhh {
+  display:inline-block;
+  vertical-align:top;
+}
+#hh {
+  width: 210px;
+  height:50px;
+  margin:15px 125px 5px 10px;
+  border: 2px solid #c0c0c0;
+  border-radius:5px;
+}
+#submit {
+  margin:15px;
+  width:96px;
+  height: 40px;
+  background: #59ace0;
+  border: 0px;
+  border-radius: 6px;
+  color: white;
+  font-size: 1em;
+}
