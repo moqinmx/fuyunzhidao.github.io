@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>厉害国</title>
+	<link rel="stylesheet" type="text/css" href="lihaiguo.css">
+</head>
+<body>
+	<h1 id="title">厉害了我的国</h1>
+<div class="main">
+  <p id="description">随着互联网的普及，现代人类陷入了信息过饱和状态，但其中的真真假假让人难以辨别，那么睿智如你，又能识得几分真理了？</p>
+  <form id="survey-form">
+    <div class="label">
+      <div class="leftlabel">
+        <label id="name-label" for="name">
+          人过也要留名：
+        </label>
+      </div>
+      <div class="rightlabel">
+        <input type="text" name="name" id="name-label" class="survey-input" placeholder="请英雄输入大名" required>
+      </div>
+    </div>
+    <div class="label">
+      <div class="leftlabel">
+        <label id="email-label" for="email">
+          如何联系到您：
+        </label>
+      </div>
+      <div class="rightlabel">
+        <input type="email" name="email" id="email-label" class="survey-input" placeholder="请输入邮箱" required>
+      </div>
+    </div>
+    <div class="label">
+        <div class="leftlabel">
+          <label id="age-label" for="age">
+            说出你的秘密：
+          </label>
+        </div>
+        <div class="rightlabel">
+          <input type="number" name="age" id="age-label" min="1" max="120" class="survey-input" placeholder="请输入年龄" required>
+        </div>
+    </div>
+   <div class="roles">
+    <div class="leftlabel">
+      <label for="roleselect">大侠何处高就：</label>
+    </div>
+     <div class=rightlabel>
+       <select id="dropdown" class="dropdown">
+         <option disabled value>您的职业</option>
+         <option value="student">学生党</option>
+         <option value="worker">加班狗</option>
+         <option value="syb">创业咖</option>
+         <option value="no">管得着</option>
+       </select>
+     </div>
+   </div
+     <div class="only">
+     <div class="hehe">
+       <label>最厉害的国家：</label>
+     </div>
+     <div class="he">
+    <div class="radio">
+     <input type="radio" name="great" value="China">中国
+    </div>
+    <div class="radio">
+     <input type="radio" name="great" value="American" disabled>美国
+    </div>
+    <div class="radio">
+     <input type="radio" name="great" value="German" disabled>德国
+    </div>
+    <div class="radio">
+     <input type="radio" name="great" value="Japan" disabled>日本
+    </div>
+     </div>
+    <div class="many">
+      <div class="hehe">
+        <label>伟大中国：</label>
+      </div>
+      <div class="he">
+        <div class="checkbox">
+          <input type="checkbox" name="he" value="1">灭天灭地的良心疫苗
+        </div>
+        <div class="checkbox">
+          <input type="checkbox" name="he" value="2">长高长胖的结实奶粉
+        </div>
+        <div class="checkbox">
+          <input type="checkbox" name="he" value="3">日翻夜翻的安居房价
+        </div>
+      </div>
+        <div class="bizui">
+          <div class="hhhh">
+            <label>放心大胆的说出你的心声</label>
+          </div>
+          <div class="hhh">
+            <textarea id="hh" name="hh" placeholder="欢迎英雄先说一句"></textarea>
+          </div>
+        </div>
+        <button type="submit" id="submit">提交</button>
+     </div>
+    </div>
+  </form>
+</div>
+
+</body>
+</html>
